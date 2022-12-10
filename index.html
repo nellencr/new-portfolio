@@ -19,7 +19,7 @@
     <nav class="navba">
         <!-- Links -->
         <ul>
-            <li class="nav-item"> <a class="nav-link" id="span" href="#"> < Patronella /></Patronella></a></li>
+            <li class="nav-item"> <a class="nav-link" id="span" href="#"> < Patronella /></a></li>
             <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
             <li class="nav-item"><a class="nav-link" href="#resume">RESUME</a></li>
@@ -31,12 +31,11 @@
       <div class="details">
         <h1>Hi, im Patronella <span id="hand">👋</span></h1>
         <div class="details1">
-          <h6 class="det" id="case1">Back-end Developer | React Developer</h6>
-          <h6 class="det" id="case2">Web UI/UX | Node.js Developer</h6>
+          <h6 class="det" id="animation">Web UI/UX | Node.js Developer</h6>
         </div>
         <h5 id="home_h5">from South Africa<span id="sa">🇿🇦 </span></h5>
-        <div>
-          <button class="home_btn" type="submit">CONTACT ME</a></button>
+        <div class="butnn"><a class="nav-link" href="#contact"><button class="home_btn" type="submit">CONTACT ME</a></button></a>
+          
         </div>
       </div>
       <div>
@@ -155,6 +154,25 @@
       </ul>
       <p id="small"> ©  patronella 2022 | All rights reserved </p>
     </footer>
+    <script>
+      const arrayStr = ['Back-end Developer | Node.js Developer', 'Web UI/UX Developer | React Developer', 'Dart Developer | Python Developer']
+
+      const animation = document.getElementById('animation')
+      let i = -1
+
+      console.log(animation)
+      setInterval(() => {
+          if (i === arrayStr.length - 1) {
+              i = -1
+          }
+        i++
+  
+        animation.innerHTML = arrayStr[i]
+  
+         console.log({ i }, arrayStr[i])
+      }, 3000)
+      </script>
+      
    
     
 
