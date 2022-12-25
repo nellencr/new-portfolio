@@ -2,7 +2,7 @@
 
 
 ## Link
- [Portfolio link](https://raw.githack.com/nellencr/PORTFOLIO/feature/index.html)
+ [Portfolio link](https://precious-crepe-7dd83b.netlify.app/)
 
 
 👤 **AUTHOR**
